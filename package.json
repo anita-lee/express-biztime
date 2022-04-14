@@ -1,17 +1,24 @@
 {
-  "name": "express-biztime",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "dependencies": {
+    "express": "^5.0.0-beta.1",
+    "pg": "^8.7.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "keywords": [],
+  "name": "express-biztime",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anita-lee/express-biztime.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.3",
-    "pg": "^8.7.3"
-  }
+  "bugs": {
+    "url": "https://github.com/anita-lee/express-biztime/issues"
+  },
+  "homepage": "https://github.com/anita-lee/express-biztime#readme",
+  "description": ""
 }
